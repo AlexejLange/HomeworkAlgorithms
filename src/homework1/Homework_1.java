@@ -14,7 +14,7 @@ package homework1;
 public class Homework_1 {
     public static void main(String[] args) {
         int[] array = {56, 17, 34, 89, -96, 1, -15, 14};
-        int number = 11;
+        int number = 34;
         System.out.println(elementSearch(array, number));
         if (elementSearchB(array, number)) {
             System.out.println("Элемент " + number + " есть в массиве.");
@@ -24,8 +24,8 @@ public class Homework_1 {
     }
 
     public static Integer elementSearch(int[] array, int number) {
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == number) return i;
+        for (int j : array) {
+            if (j == number) return number;
         }
         return null;
     }
