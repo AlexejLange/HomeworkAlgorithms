@@ -1,4 +1,4 @@
-package homeworkHanoi;
+package homeworkhanoi;
 /**
  * Algorithms. Homework Hanoi
  * @author Alexej Lange
