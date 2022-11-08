@@ -1,5 +1,12 @@
 package homeworklinkedlist;
 
+/**
+ * Algorithms. Homework LinkedList
+ * @author Alexej Lange
+ * @version 08 Nov 2022
+ *
+ */
+
 public interface LinkedListInterface {
     void pushToHead(int data);
     void pushToTail(int data);

@@ -1,5 +1,12 @@
 package homeworklinkedlist;
 
+/**
+ * Algorithms. Homework LinkedList
+ * @author Alexej Lange
+ * @version 08 Nov 2022
+ *
+ */
+
 public class MyLinkedList implements LinkedListInterface {
     private int size = 0;
     private Node first;
